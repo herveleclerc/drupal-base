@@ -1,0 +1,8 @@
+'*':
+  host: 135.236.180.136
+  paths:
+    files: /app/web/sites/default/files
+  user: ${env-name}
+  ssh:
+    options: '-o UserKnownHostsFile=/dev/null -o StrictHostKeyChecking=no -o LogLevel=FATAL -p 2020'
+    tty: false
